@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>품의서</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        table { width: 100%; border-collapse: collapse; }
+        td, th { border: 1px solid #999; padding: 0.5em; }
+        th { background: #eee; }
+    </style>
+</head>
+<body>
+    <h1>품의서</h1>
+    <table>
+        <tr><th>관</th><td>{{ gwan }}</td></tr>
+        <tr><th>항</th><td>{{ hang }}</td></tr>
+        <tr><th>목</th><td>{{ mok }}</td></tr>
+        <tr><th>계정과목(세목)</th><td>{{ account }}</td></tr>
+        <tr><th>적요</th><td>{{ description }}</td></tr>
+        <tr><th>금액</th><td>{{ amount }}</td></tr>
+        <tr><th>거래처</th><td>{{ vendor }}</td></tr>
+    </table>
+</body>
+</html>
